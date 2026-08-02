@@ -47,4 +47,4 @@ Grab the latest installer from [Releases](../../releases).
 
 ## Support
 
-Issues with the agent or installer: open an issue on this repo. For anything about the product itself, see [roseremote.roseetiket.nl](https://roseremote.roseetiket.nl).
+Issues with the agent or installer: open an issue on this repo. For anything about the product itself, see [remote.roseetiket.nl](https://remote.roseetiket.nl).
