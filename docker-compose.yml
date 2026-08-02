@@ -1,0 +1,16 @@
+services:
+  agent:
+    image: ghcr.io/rose-etiket/roseremote-agent:latest
+    container_name: roseremote-agent
+    restart: unless-stopped
+    environment:
+      # Required
+      Server__Url: "https://your-server:5140"
+      Auth__Email: "you@example.com"
+      Auth__Password: "your-password"
+
+      # Optional
+      # Device__Name: "my-linux-vm"            # defaults to the container hostname
+      # Video__FrameRate: "2"                  # frames/sec, default 2 (low, meant for headless/AI use)
+      # Video__EnableHardwareEncoding: "false"
+      # Ice__UseIceServers: "false"             # leave off unless you need TURN relay traversal
